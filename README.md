@@ -52,5 +52,24 @@ Go to your SalesForce Account -> Identity -> Single Sign-On Settings - Click Edi
 Click SAML Enabled and Save
 ![image](https://github.com/user-attachments/assets/bad001f0-0a79-4c84-86d7-9b08c28cdf05)
 
+Go to your Okta instance -> under your SAML settings -> Metadata details -> Expand More Details
+![image](https://github.com/user-attachments/assets/cad62abe-42e8-4438-88e2-3155774079a4)
+
+
+On the Salesforce-side insert all the metadata details we got from the Okta-side. See below. Create any Name and API Name. Entity ID is your salesforce domain name (we saved the custom domain url in a notepad from when we created SalesForce acct.) with "https://" added in the beginning. See Below for reference. 
+![image](https://github.com/user-attachments/assets/957d9cde-5e3c-476d-ada2-4208b97dcdbb)
+
+
+On the SalesForce-side -> Click Save once all the details have been copied from Okta properly. Go to Okta and scroll down to see the Advanced Sign-On Settings. Copy the Login Url and Logout URL from Salesforce-side to the Okta-Side. The Login Url and Logout URL from Salesforce-side will get generated once you save all the details we have copied from Okta from previous step.
+![image](https://github.com/user-attachments/assets/759c1b82-2e76-47a4-9799-6f43d6361f1f)
+
+On the Okta-side -> Click Done. SalesForce Integration with Okta has been setup BUT NOT COMPLETED!!
+![image](https://github.com/user-attachments/assets/2484305e-2a4a-47d5-90aa-0a53f0f3f9ef)
+
+For Reference, these configurations were done on the SP-side (SalesForce) when integrating with Okta.
+![image](https://github.com/user-attachments/assets/157da1c3-81ab-492d-acbf-2238aac426a7)
+
+
+
 
 
