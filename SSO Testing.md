@@ -61,5 +61,3 @@ Step 6. You will now be logged into the Salesforce Instance. You should see the 
 ![image](https://github.com/user-attachments/assets/83664e81-4085-4660-8b6f-1842e4680bc4)
 
 
-
-
