@@ -40,3 +40,26 @@ Step 9. Click on the Salesforce tile -> click Launch App on the side panel
 Step 10. You will now be logged into the Salesforce Instance automatically. You should see the starting page as seen below.
 ![image](https://github.com/user-attachments/assets/e24db6e6-97c3-4130-bfbb-036872e9634c)
 
+SP Initiated flow:
+
+Step 1. Before initiating the SP flow (SalesForce) which allows you to login in directly using okta credentials. Go to Salesforce URL -> Go to My Domain -> Under Authentication Configuration -> Click Edit
+![image](https://github.com/user-attachments/assets/287e4f7b-1e23-4fb5-bad6-34c3f82e7c2b)
+
+Step 2. In Authentication Configuration -> Authentication Service -> Check the box next to your SAML configuration name. (Example: oktatest) See below. 
+![image](https://github.com/user-attachments/assets/e5da8a18-ae59-4869-b1e3-949a51e2bef2)
+
+Step 3. Press Save and make sure your selected configuration has been added to Authentication Service.  
+![image](https://github.com/user-attachments/assets/e4142543-c17c-4e22-bc9c-e9da8e479af3)
+
+Step 4. In a new separate(incognito) window, go to your SalesForce Login Page. You should see your enabled "oktatest" SAML configuration(or whatever name you gave the configuration) -> Click "Log in with oktatest" 
+![image](https://github.com/user-attachments/assets/6e2cd913-eff8-4f82-aac6-0048b8d6c4de)
+
+Step 5. You should be redirected to a Okta Sign-in page. Type the new user credentials and sign in.
+![image](https://github.com/user-attachments/assets/f076522b-b56b-480b-8282-d0dd38f5f0f5)
+
+Step 6. You will now be logged into the Salesforce Instance. You should see the starting page as seen below.
+![image](https://github.com/user-attachments/assets/83664e81-4085-4660-8b6f-1842e4680bc4)
+
+
+
+
