@@ -1,4 +1,4 @@
-SSO Testing- IdP initiated flow and SP initiated flow
+SSO Testing- IdP initiated flow, SP initiated flow, and SAML Tracer Testing
 
 
 IdP Initiated Flow Testing:
