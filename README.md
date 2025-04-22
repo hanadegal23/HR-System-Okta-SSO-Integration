@@ -69,7 +69,23 @@ On the Okta-side -> Click Done. SalesForce Integration with Okta has been setup 
 For Reference, these configurations were done on the SP-side (SalesForce) when integrating with Okta.
 ![image](https://github.com/user-attachments/assets/157da1c3-81ab-492d-acbf-2238aac426a7)
 
+Go to Okta -> Applications Tab -> Applications sub-tab -> You should see SalesForce.com as an option and select it. -> Select Provisioning tab under Salesforce.com app -> Click Configure API Integration.
+![1707511488167](https://github.com/user-attachments/assets/4a657b9f-6d4f-4419-ab05-e0140d2a9621)
+
+Click Enable API Integration -> Copy and Past your Key and Secret from SalesForce into Okta -> Click Authenticate with Salesforce.com 
+![1707511587156](https://github.com/user-attachments/assets/e56f8186-2f20-4acd-b40a-20a34c71dc0b)
+
+You will get a pop-up window with salesforce login page -> Insert your login credentials and Log In
+![image](https://github.com/user-attachments/assets/868184b5-603f-4d81-a56b-ffb37c25933a)
 
 
+Once Salesforce verifies successfully -> Click Done
+![image](https://github.com/user-attachments/assets/33d32592-be61-4804-b319-93f3ca81f815)
+
+In the Provisioning tab for Salesforce -> Click Edit
+![1707511871427](https://github.com/user-attachments/assets/83dcf3a5-9185-400d-8ce9-1f16a55ef9bc)
+
+Enable the following options: Create Users, Update User Attributes, Delete Users -> Click Save 
+![1707511910131](https://github.com/user-attachments/assets/284893b9-b90a-419f-8dfb-9aa82aa7504e)
 
 
