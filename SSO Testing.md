@@ -61,3 +61,27 @@ Step 6. You will now be logged into the Salesforce Instance. You should see the 
 ![image](https://github.com/user-attachments/assets/83664e81-4085-4660-8b6f-1842e4680bc4)
 
 
+IdP initiated flow SAML Tracer
+
+Step 1. Log in to Okta as the user.
+![image](https://github.com/user-attachments/assets/e3b8e5bd-40c5-4d7e-9647-a0f840b76efc)
+
+Step 2: Select Salesforce
+![image](https://github.com/user-attachments/assets/cad86ea3-310c-43a7-9296-78b092ee69a3)
+
+
+Step 3. Capture the SAML element within the tracer
+![image](https://github.com/user-attachments/assets/04c0ecbe-b40d-49bc-a83d-80a562a55fa5)
+
+Step 4. Copy the content from the SAML Tab and go to https://samltool.io/
+![image](https://github.com/user-attachments/assets/7cedd791-72cf-4750-8d51-0d2a8c1b3622)
+
+SP initiated flow SAML Tracer
+
+Step 1. Initiate a SAML Connection by logging through Salesforce, and Capture the SAML element within the tracer. 
+![image](https://github.com/user-attachments/assets/8f11b377-921a-41b4-924d-d51b5f8b5c55)
+
+Step 2. Capture the SAML element within the tracer. Notice there are two SAML elements on a SP iniated flow
+![image](https://github.com/user-attachments/assets/4080818e-a052-4a57-9e18-91ada6fca593)
+The first is the SAML request sent from the application to the IdP, The second one is the SAML response sent from the IdP to the application
+Depending on which flow you are trying to troubleshoot you can use the SAML Tracer to fix SAML issues.
