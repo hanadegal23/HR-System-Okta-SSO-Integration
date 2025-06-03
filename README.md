@@ -1,4 +1,4 @@
-# Okta-SSO-Integration-with-Salesforce
+# Okta-SSO-Configuration-with-Salesforce
 Login in to Salesforce
 ![1707506593286](https://github.com/user-attachments/assets/25a7450e-f187-4a3d-be61-c2b122a1ea8b)
 
